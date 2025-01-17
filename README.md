@@ -27,6 +27,10 @@ git clone https://github.com/CJKennedy00/scribd-slideshare
 cd ./scribd-slideshare
 npm install
 ```
+3. Run this to make sure some fix errors fixed:
+```console
+npm audit fix --force
+```
 
 ## Configuration ##
 Configuration can be altered in `config.ini`.  
