@@ -17,7 +17,7 @@ node -v && npm -v
 The command should print the versions of both Node.js and npm.  
 
 ## Setup ##
-1. Download repository  
+1. Download this repository  
 ```console
 git clone https://github.com/CJKennedy00/scribd-slideshare
 ```
