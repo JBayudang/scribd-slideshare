@@ -29,7 +29,7 @@ cd ./scribd-slideshare
 ```console
 npm install
 ```
-4. Run this to make sure some fix errors fixed:
+4. Run this command to make sure that that all possible NPM issues are fixed
 ```console
 npm audit fix --force
 ```
