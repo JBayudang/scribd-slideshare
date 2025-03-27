@@ -75,4 +75,4 @@ npm start "https://www.everand.com/listen/podcast/731670963"
 - Scribd obfuscates the .pdf files, the texts copied from the documents might become strange garbled message. De-obfuscating is one of my future plans.
 
 ## License ##
-This project is licensed under the [MIT License](LICENSE.md).
+This project is licensed under the [MIT License](LICENSE).
