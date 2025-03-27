@@ -31,18 +31,6 @@ cd ./scribd-slideshare && npm install
 npm audit fix --force
 ```
 
-## Configuration ##
-Configuration can be altered in `config.ini`.  
-```ini
-[SCRIBD]
-rendertime=300
-
-[DIRECTORY]
-output=output
-```
-`rendertime` is the waiting time in millisecond for single page rendering on [scribd.com](https://www.scribd.com/), it is only applicable for `default` mode.  
-`output` is the ouput directory for generated .pdf files.
-
 ## Usage (CLI) ##
 ```console
 Usage: npm start [options] url
@@ -83,6 +71,18 @@ npm start "https://www.everand.com/listen/podcast/731670963"
 - https://www.everand.com/podcast-show/**
 - https://www.everand.com/podcast/**
 - https://www.everand.com/listen/podcast/**
+
+## Configuration ##
+Configuration can be altered in `config.ini`.  
+```ini
+[SCRIBD]
+rendertime=300
+
+[DIRECTORY]
+output=output
+```
+`rendertime` is the waiting time in millisecond for single page rendering on [scribd.com](https://www.scribd.com/), it is only applicable for `default` mode.  
+`output` is the ouput directory for generated .pdf files.
 
 ## Development Plan ##
 
