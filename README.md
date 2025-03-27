@@ -10,7 +10,7 @@ To use Scribd-SlideShare, you need to install [Node.js](https://nodejs.org/en/) 
 
 > Install Node.js using pre-built installers for your device, otherwise you may encounter incompatibility issues with different development tools.  
 
-To check that Node.js was installed correctly, type the following commands in your terminal client:  
+To check that Node.js was installed correctly, type the following command in your terminal client:  
 ```console
 node -v && npm -v
 ```
