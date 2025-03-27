@@ -24,8 +24,7 @@ git clone https://github.com/CJKennedy00/scribd-slideshare
 ```
 2. Install dependencies
 ```console
-cd ./scribd-slideshare
-npm install
+cd ./scribd-slideshare && npm install
 ```
 3. Run this to make sure some fix errors fixed:
 ```console
