@@ -21,11 +21,15 @@ The command should print the versions of both Node.js and npm.
 ```console
 git clone https://github.com/CJKennedy00/scribd-slideshare
 ```
-2. Install dependencies
+2. Open directory
 ```console
-cd ./scribd-slideshare && npm install
+cd ./scribd-slideshare
 ```
-3. Run this to make sure some fix errors fixed:
+3. Install dependencies
+```console
+npm install
+```
+4. Run this to make sure some fix errors fixed:
 ```console
 npm audit fix --force
 ```
