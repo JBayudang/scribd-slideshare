@@ -72,21 +72,8 @@ npm start "https://www.everand.com/listen/podcast/731670963"
 - https://www.everand.com/podcast/**
 - https://www.everand.com/listen/podcast/**
 
-## Configuration ##
-Configuration can be altered in `config.ini`.  
-```ini
-[SCRIBD]
-rendertime=300
-
-[DIRECTORY]
-output=output
-```
-`rendertime` is the waiting time in millisecond for single page rendering on [scribd.com](https://www.scribd.com/), it is only applicable for `default` mode.  
-`output` is the ouput directory for generated .pdf files.
-
 ## Development Plan ##
-
-- Scribd obfuscates the .pdf files, the texts copied from the documents might become strange garbled message. De-obfuscating is one of the future plan.
+- Scribd obfuscates the .pdf files, the texts copied from the documents might become strange garbled message. De-obfuscating is one of my future plans.
 
 ## License ##
 This project is licensed under the [MIT License](LICENSE.md)
