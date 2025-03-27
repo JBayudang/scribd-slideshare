@@ -35,7 +35,7 @@ npm audit fix --force
 Configuration can be altered in `config.ini`.  
 ```ini
 [SCRIBD]
-rendertime=100
+rendertime=300
 
 [DIRECTORY]
 output=output
